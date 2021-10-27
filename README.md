@@ -8,23 +8,23 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### [Bloco 1: Introdução - Unix & Bash]()
+##### [Bloco 1: Introdução - Unix & Bash](https://github.com/leonardoVogel/trybe-exercicios/tree/main/01_fundamentos/b01_unix-e-bash)
 
 - [X] 1-3: _Fundamentos do Desenvolvimento Web_
 - [X] 1-3: _Introdução - Unix & Shell_
 - [X] 1-3: _Unix & Bash - Part 1_
 - [X] 1-4: _Unix & Bash - Part 2_
 
-##### [Bloco 2: Git, GitHub e Internet]()
+##### [Bloco 2: Git, GitHub e Internet](https://github.com/leonardoVogel/trybe-exercicios/tree/main/01_fundamentos/b02_git-github-e-internet)
 
 - [X] 2-1: _Git & GitHub - O que é e para que serve?_
 - [X] 2-2: _Git & GitHub - Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [X] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução à HTML & CSS
+##### [Bloco 3: Introdução à HTML & CSS](https://github.com/leonardoVogel/trybe-exercicios/tree/main/01_fundamentos/b03_introducao-a-html-e-css)
 
-- [ ] 3-1: _Introdução - HTML & CSS_
-- [ ] 3-1: _HTML & CSS - Estruturas de página_
+- [X] 3-1: _Introdução - HTML & CSS_
+- [X] 3-1: _HTML & CSS - Estruturas de página_
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
