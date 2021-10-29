@@ -1,0 +1,42 @@
+body{
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+
+ul {
+    background-color: blueviolet;
+}
+
+.cor-favorita {
+    background-color: bisque;
+}
+
+#amarelo {
+    background-color: yellow;
+    width: fit-content;
+}
+
+#vermelho {
+    background-color: red;
+    width: fit-content;
+}
+
+#marrom {
+    background-color: brown;
+    width: fit-content;
+}
+
+.list {
+    font-style: italic;
+}
