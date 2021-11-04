@@ -25,7 +25,9 @@ header h1 {
   background-color: blue;
 }
 
-.fatos {
+.maincontent {
+  display: inline-block;
+  max-width: 70%;
   margin-top: 20px;
   margin-left: 30px;
 }
@@ -39,22 +41,48 @@ header h1 {
 }
 
 .img {
+  display: inline-block;
   margin: 15px auto;
+  height: 224.83px;
+}
+
+div.table {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.sidebar {
+  padding-top: 40px;
+  padding-left: 40px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(0, 208, 245);
   width: 350px;
+  height: 1000px;
+  margin-top: 20px;
+  }
+
+.references h4 {
+  font-size: 1.3em;
 }
 
-.section1 {
-  width: 70%;
+.references {
+  border-radius: 5%;
+  background-color: rgba(0, 217, 255, 0.534);
+  font-size: 1.3em;
+  padding: 20px;
+  margin-top: 100px;
+  margin-right: 40px;
 }
-
-aside {
-  float: right;
-  width: 30%;
-}
-
-
 
 table, th, td {
-  border: 1px solid black;
+  width: 190px;
+  margin: 15px 0;
+  border: 0.5px solid black;
   border-collapse: collapse;
+  padding: 6px;
+}
+
+footer {
+  margin-left: 50px;
 }

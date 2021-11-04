@@ -8,11 +8,11 @@
     
     [X] Crie um link chamado Contato .
 
-[ ] 3 - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um site animal de inspiração para pegar fatos.
+[X] 3 - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um site animal de inspiração para pegar fatos.
 
 [ ] 4 - Divida o artigo em seções, organizando-o da seguinte forma:
     
-    [ ] Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu nome científico , que é Odontodactylus scyllarus , em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classificação científica, em específico: Reino , Filo , Subfilo , Classe , Subclasse e Ordem . Tais informações você consegue obter na Wikipedia.
+    [X] Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu nome científico , que é Odontodactylus scyllarus , em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classificação científica, em específico: Reino , Filo , Subfilo , Classe , Subclasse e Ordem . Tais informações você consegue obter na Wikipedia.
 
     [ ] As outras seções dizem respeito aos fatos interessantes que você escolheu acerca do animal. Para cada fato escolhido você vai criar uma seção.
 
