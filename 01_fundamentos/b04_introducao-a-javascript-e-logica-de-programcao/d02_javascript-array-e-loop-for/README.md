@@ -22,6 +22,16 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 - [X] 9. Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
 
-[Link dos Exercícios 1 a 9]()
+[Link dos Exercícios 1 a 9](https://github.com/leonardoVogel/trybe-exercicios/blob/main/01_fundamentos/b04_introducao-a-javascript-e-logica-de-programcao/d02_javascript-array-e-loop-for/script1.js)
+
+---
+
+- [X] 10. Ordene o array numbers em ordem crescente e imprima seus valores;
+
+- [X] 11. Ordene o array numbers em ordem decrescente e imprima seus valores;
+
+- [X] 12. Agora crie um novo array a partir do array numbers , sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte. Por exemplo: o primeiro valor do novo array deverá ser 45, pois é a multiplicação de 5 (primeiro valor) e 9 (valor seguinte). Já o segundo valor do novo array deverá ser 27, pois é a multiplicação de 9 (segundo valor) e 3 (valor seguinte), e assim por diante. Caso não haja próximo valor, a multiplicação deverá ser feita por 2. Faça isso utilizando o for e o método push . O resultado deve ser o array abaixo:
+
+[Link dos Exercícios 10 a 12](https://github.com/leonardoVogel/trybe-exercicios/blob/main/01_fundamentos/b04_introducao-a-javascript-e-logica-de-programcao/d02_javascript-array-e-loop-for/script2.js)
 
 ---
