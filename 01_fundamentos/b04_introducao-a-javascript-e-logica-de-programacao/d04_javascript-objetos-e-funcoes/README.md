@@ -1,4 +1,6 @@
-> script1.js
+### [script1.js - Link dos exercícios abaixo](https://github.com/leonardoVogel/trybe-exercicios/blob/main/01_fundamentos/b04_introducao-a-javascript-e-logica-de-programacao/d04_javascript-objetos-e-funcoes/script1.js)
+
+<br>
 
 Usando o objeto abaixo, faça os exercícios a seguir:
 
@@ -52,11 +54,13 @@ let leitor = {
 
 - [X] 8. Acesse as chaves nome e livrosFavoritos e faça um console.log no seguinte formato: "Julia tem 2 livros favoritos".
 
-[Link dos exercícios acima](https://github.com/leonardoVogel/trybe-exercicios/blob/main/01_fundamentos/b04_introducao-a-javascript-e-logica-de-programacao/d04_javascript-objetos-e-funcoes/script1.js)
-
 ---
 
-> script2.js
+<br>
+
+### [script2.js - Link dos exercícios abaixo](https://github.com/leonardoVogel/trybe-exercicios/blob/main/01_fundamentos/b04_introducao-a-javascript-e-logica-de-programacao/d04_javascript-objetos-e-funcoes/script2.js)
+
+<br>
 
 Agora vamos fazer um exercício que vai deixar nítido como funções com responsabilidades bem definidas deixam o código mais bem escrito.
 
@@ -73,7 +77,5 @@ Agora vamos fazer um exercício que vai deixar nítido como funções com respon
 - [ ] 6. Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
 
 - [ ] 7. Crie uma função que receba uma string word e outra string ending. Verifique se a string ending é o final da string word. Considere que a string ending sempre será menor que a string word.
-
-[Link dos exercícios acima](https://github.com/leonardoVogel/trybe-exercicios/blob/main/01_fundamentos/b04_introducao-a-javascript-e-logica-de-programacao/d04_javascript-objetos-e-funcoes/script2.js)
 
 ---
