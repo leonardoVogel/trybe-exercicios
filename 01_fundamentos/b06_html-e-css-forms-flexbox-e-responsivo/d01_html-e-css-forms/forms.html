@@ -11,33 +11,34 @@
   <form action="" method="get">
     <fieldset>
       <label for="name">Nome</label>
-      <input id="name" type="text" maxlength="40" name="nome">
+      <input id="name" type="text" maxlength="40" name="nome" required>
       <label for="email">Email</label>
-      <input id="email" type="email" maxlength="50" name="email">
+      <input id="email" type="email" maxlength="50" name="email" required>
       <label for="cpf">CPF</label>
-      <input id="cpf" type="number" maxlength="11" name="cpf">
+      <input id="cpf" type="number" maxlength="11" name="cpf" required>
       <label for="endereco">Endereço</label>
-      <input id="endereco" name="endereco" maxlength="200"></input>
+      <input id="endereco" name="endereco" maxlength="200" required></input>
       <label for="cidade">Cidade</label>
-      <input id="cidade" type="text" maxlength="28" name="cidade">
+      <input id="cidade" type="text" maxlength="28" name="cidade" required>
       <label for="estados">Estado</label>
       <select id="estados" name="estado">
-      </select>
+      </select required>
       <label for="tipos">Tipo</label>
-      <label for="tipo1"><input type="radio" name="tipo" id="tipo1">Casa</label>
-      <label for="tipo2"><input type="radio" name="tipo" id="tipo2">Apartamento</label>
+      <label for="tipo1"><input type="radio" name="tipo" id="tipo1" required>Casa</label>
+      <label for="tipo2"><input type="radio" name="tipo" id="tipo2" required>Apartamento</label>
     </fieldset>
     <fieldset>
       <label for="resume">Resumo do currículo</label>
-      <textarea name="resume" id="resume" cols="30" rows="10" maxlength="1000"></textarea>
+      <textarea name="resume" id="resume" cols="30" rows="10" maxlength="1000" required></textarea>
       <label for="cargo">Cargo</label>
-      <input type="text" name="cargo" id="cargo" maxlength="40">
+      <input type="text" name="cargo" id="cargo" maxlength="40" required>
       <label for="descricao-cargo">Cargo</label>
-      <input type="text" name="descricao-cargo" id="descricao-cargo" maxlength="500">
+      <input type="text" name="descricao-cargo" id="descricao-cargo" maxlength="500" required>
       <label for="data">Data de início</label>
-      <input type="text" name="data" id="data" placeholder="dd/mm/aaaa">
+      <input type="text" name="data" id="data" placeholder="dd/mm/aaaa" required>
     </fieldset>
-    <button id="btnSubmit" type="submit">Teste</button>
+    <button id="btnSubmit" type="submit">Enviar</button>
+    <button id="btnClear" type="submit">Limpar</button>
   </form>
 </body>
 </html>
