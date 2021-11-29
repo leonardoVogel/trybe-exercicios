@@ -1,0 +1,7 @@
+#errorList ul li {
+  color: red;
+}
+
+#resultList ul li {
+  background-color: rgb(225, 248, 230)
+}
