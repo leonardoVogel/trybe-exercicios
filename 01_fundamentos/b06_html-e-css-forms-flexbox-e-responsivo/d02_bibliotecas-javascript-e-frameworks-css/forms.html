@@ -7,39 +7,43 @@
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+
+  <script src="script.js" type="module" defer></script>
 </head>
 <body>
-  <form action="" method="get">
+  <form action="" method="get" class="js-form">
     <fieldset class="container mt-5">
       <div class="input-group mb-3">
         <span class="input-group-text">Nome</span>
-          <input class="form-control" id="name" type="text" maxlength="40" name="nome" placeholder="Nome Completo">
+          <input class="form-control" id="name" data-validate-field="name" type="text" maxlength="40" name="nome" placeholder="Nome Completo">
       </div>
 
       <div class="input-group mb-3">
         <span class="input-group-text" for="email">Email</span>
-          <input class="form-control"id="email" type="text" maxlength="50" name="email" placeholder="email@email.com">
+          <input class="form-control"id="email" data-validate-field="email" type="text" maxlength="50" name="email" placeholder="email@email.com">
       </div>
 
       <div class="input-group mb-3">
         <span class="input-group-text" for="cpf">CPF</span>
-          <input class="form-control" id="cpf" type="text" maxlength="11" name="cpf" placeholder="Apenas números">
+          <input class="form-control" id="cpf" data-validate-field="cpf" type="text" maxlength="11" name="cpf" placeholder="Apenas números">
       </div>
         
       <div class="input-group mb-3">
         <span class="input-group-text" for="endereco">Endereço</span>
-          <input class="form-control" id="endereco" name="endereco" maxlength="200"></input>
+          <input class="form-control" id="endereco" data-validate-field="address" name="endereco" maxlength="200"></input>
       </div>
         
       <div class="input-group mb-3">
         <span class="input-group-text" for="cidade">Cidade</span>
-          <input class="form-control" id="cidade" type="text" maxlength="28" name="cidade">
+          <input class="form-control" id="cidade" data-validate-field="city" type="text" maxlength="28" name="cidade">
       </div>
       
       <div class="input-group mb-3">
         <span class="input-group-text" for="estados">Estado</span>
-        <select class="form-select" id="estados" name="estado">
+        <select class="form-select" id="estados" data-validate-field="state" name="estado">
           <option selected> Selecione seu estado </option>
         </select>
       </div>
@@ -47,11 +51,11 @@
       <div class="input-group mb-3">
         <div class="input-group-text form-check-inline">Tipo</div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="tipo" id="tipo1" value="casa">
+            <input class="form-check-input" type="radio" name="tipo" id="tipo1" data-validate-field="type" value="casa">
             <label class="form-check-label" for="tipo1">Casa</label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="tipo" id="tipo2" value="ap">
+            <input class="form-check-input" type="radio" name="tipo" id="tipo2" data-validate-field="type" value="ap">
             <label class="form-check-label" for="tipo2">Apartamento</label>
           </div>
       </div>
@@ -61,22 +65,23 @@
       
       <div class="input-group mb-3">
         <span class="input-group-text" for="resume">Resumo do currículo</span>
-          <textarea class="form-control" name="resume" id="resume" cols="30" rows="10" maxlength="1000"></textarea>
+          <textarea class="form-control" name="resume" id="resume" data-validate-field="resume" cols="30" rows="10"></textarea>
       </div>
       
       <div class="input-group mb-3">
         <span class="input-group-text" for="cargo">Cargo</span>
-          <input class="form-control" type="text" name="cargo" id="cargo" maxlength="40">
+          <input class="form-control" type="text" name="cargo" id="cargo" data-validate-field="position">
       </div>
       
       <div class="input-group mb-3">
         <span class="input-group-text" for="descricao-cargo"> Descrição do cargo</span>
-          <input class="form-control" type="text" name="descricao-cargo" id="descricao-cargo" maxlength="500">
+          <input class="form-control" type="text" name="descricao-cargo" id="descricao-cargo" data-validate-field="descriptionJob">
       </div>
       
       <div class="input-group mb-3">
         <span class="input-group-text" for="data">Data de início</span>
-          <input class="form-control" type="text" name="data" id="data" placeholder="dd/mm/aaaa">
+          <input class="form-control" type="text" id="datepicker" data-validate-field="date">
+          <!-- <input class="form-control" type="text" name="data" id="data" placeholder="dd/mm/aaaa"> -->
       </div>
 
     </fieldset>
