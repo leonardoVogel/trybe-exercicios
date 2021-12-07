@@ -48,14 +48,14 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 - [X] 5-5: _Fundamentos - JavaScript - Projetos_
 - [X] 5-5: _[Projeto - Arte com Pixels]()_
 - [X] 5-6: _[Projeto - Lista de Tarefas]()_
-- [ ] 5-7: _[Projeto Bônus - Meme Generator]()_
+- [X] 5-7: _[Projeto Bônus - Meme Generator]()_
 - [X] 5-7: _[Projeto Bônus - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto Bônus - Carta Misteriosa]()_
+- [X] 5-7: _[Projeto Bônus - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
 
 - [X] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
