@@ -161,7 +161,16 @@ function submitResult(event) {
   event.preventDefault();
 
   document.createElement('ul').innerHTML = '';
+
+  erros = [];
   
+  if (document.querySelector('#errorList')) {
+    document.querySelector('#errorList').remove();
+  }
+  if (document.querySelector('#resultList')) {
+    document.querySelector('#resultList').remove();
+  }
+
   let name = verifyName();
   let email = verifyEmail();
   let cpf = verifyCPF();
