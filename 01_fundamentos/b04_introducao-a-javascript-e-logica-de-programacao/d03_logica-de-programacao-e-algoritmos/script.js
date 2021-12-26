@@ -68,11 +68,24 @@ for(let i = 1; i <= n; i++ ){
 
 
 
-// Por fim, faça uma pirâmide com n asteriscos de base:
+// Faça uma pirâmide com n asteriscos de base:
 
 n = 5
+let tree = '';
 
-// piramide(5)
+for (let index = 1; index <= n; index += 1) {
+  for (let espacos = 1; espacos <= n - index; espacos += 1) {
+    tree += ' ';
+  }
+  for (let asteriscos = 0; asteriscos < 2 * index - 1; asteriscos += 1) {
+    tree += '*';
+  }
+  tree += '\n';
+}
+console.log(tree);
+
+
+// tree(5)
 //   *
 //  ***
 // *****
@@ -81,13 +94,32 @@ n = 5
 
 // Por último, façamos com que a variável seja incrementada com o valor correspondente a cada loop;
 
-n = 7
+n = 7;
+let middle = (n + 1) / 2;
+let controlLeft = middle;
+let controlRight = middle;
+let symbol = '*';
+
+for (let line = 1; line <= middle; line += 1) {
+  let outputLine = '';
+  for (let column = 1; column <= n; column += 1) {
+    if (column == controlLeft || column == controlRight || line == middle) {
+      outputLine += symbol;
+    } else {
+      outputLine += ' ';
+    }
+  }
+  controlLeft -= 1;
+  controlRight += 1;
+  console.log(outputLine);
+}
 
 // arvoreVazada(7)
 //    *
 //   * *
 //  *   *
 // *******
+
 
 
 // Faça um programa que diz se um número definido numa variável é primo ou não.
