@@ -146,12 +146,45 @@ function nome() {
 
 // Exercício 10
 const days2 = document.querySelector('#days');
-days2.addEventListener('click', xablau);
+days2.addEventListener('click', changeColor);
 
-function xablau(event) {
+function changeColor(event) {
   if (event.target.style.color !== localizaDiv.style.backgroundColor) {
     event.target.style.color = localizaDiv.style.backgroundColor;
   } else {
     event.target.style.color = 'rgb(119,119,119)';
   }
 }
+
+// Exercício bonus
+const inputCompromisso = document.querySelector('#task-input');
+const btnAddCompromisso = document.querySelector('#btn-add');
+const listaCompromissos = document.querySelector('.task-list')
+
+btnAddCompromisso.addEventListener('click', () => {
+  if (inputCompromisso.value.length > 0) {
+  const compromisso = document.createElement('li');
+  compromisso.innerText = inputCompromisso.value;
+  listaCompromissos.appendChild(compromisso);
+
+  inputCompromisso.value = '';
+  inputCompromisso.focus();
+  } else {
+    alert('Error: Digite algum compromisso!')
+  }
+});
+
+inputCompromisso.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter') {
+    if (inputCompromisso.value.length > 0) {
+    const compromisso = document.createElement('li');
+    compromisso.innerText = inputCompromisso.value;
+    listaCompromissos.appendChild(compromisso);
+  
+    inputCompromisso.value = '';
+    inputCompromisso.focus();
+    } else {
+      alert('Error: Digite algum compromisso!')
+    }
+  }
+});
