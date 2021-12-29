@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  width: 70%;
+}
+
+.title {
+  text-align: center;
+  margin: 30px 0 30px;
+}
+
+.post {
+  margin: 40px 40px 0 0;
+  width: 45%
+}
+
+.container-geral {
+  display: flex;
+}
+
+.preferences {
+  padding-top: 30px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 27%;
+  background-color:rgb(180, 180, 180);
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 25px 0;
+}
+
+.preferences div {
+  margin: 20px 35px;
+}
+
+.menu-btn {
+  font-size: 20px;
+  width: 50px;
+  height: 35px;
+  text-align: center;
+}
+
+.menu-select {
+  font-size: 20px;
+  height: 35px;
+}
