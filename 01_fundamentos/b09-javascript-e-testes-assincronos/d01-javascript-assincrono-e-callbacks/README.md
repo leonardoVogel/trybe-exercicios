@@ -1,4 +1,5 @@
-Exercícios bloco 9.1
+### Exercícios bloco 9.1
+Arquivos `script.js` e `script.test.js`
 
 - [x] 1 - Dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
 
