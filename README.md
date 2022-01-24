@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas online, abordando Introdução ao Desenvolvimento de Software, Front-End, Back-End, Ciência da Computação, Engenharia de Software, Metodologias Ágeis e Habilidades Comportamentais.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## [Fundamentos do Desenvolvimento Web](https://github.com/leonardoVogel/trybe-exercicios/tree/main/01_fundamentos) :heavy_check_mark:
 
 ##### [Bloco 1: Introdução - Unix & Bash](https://github.com/leonardoVogel/trybe-exercicios/tree/main/01_fundamentos/b01_unix-e-bash)
 
@@ -79,18 +79,18 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 
 ##### [Bloco 9: JavaScript e Testes Assíncronos](https://github.com/leonardoVogel/trybe-exercicios/tree/main/01_fundamentos/b09-javascript-e-testes-assincronos)
 
-- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
 - [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [x] 9-4: _[Projeto - Carrinho de Compras]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## [Desenvolvimento Front-end](https://github.com/leonardoVogel/trybe-exercicios/tree/main/02_front-end) :hourglass_flowing_sand:
 
-##### Bloco 10: Introdução à React
+##### [Bloco 10: Introdução à React](https://github.com/leonardoVogel/trybe-exercicios/tree/main/02_front-end/b10_introducao-a-react)
 
-- [ ] 10-1: _Introdução - Front-end_
-- [ ] 10-1: _Introdução - React_
-- [ ] 10-1: _'Hello, world!' no React!_
+- [x] 10-1: _Introdução - Front-end_
+- [x] 10-1: _Introdução - React_
+- [x] 10-1: _'Hello, world!' no React!_
 - [ ] 10-2: _Componentes React_
 - [ ] 10-3: _[Projeto - Sistema Solar]()_
 
