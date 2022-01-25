@@ -1,0 +1,14 @@
+.display {
+  margin: 0 auto;
+  padding: 70px 0;
+  width: 550px;
+  height: 600px;
+  background-color: rgb(220, 10, 45);
+  border-top: 20px solid rgb(220, 10, 45);
+  border-bottom: 20px solid rgb(220, 10, 45);
+  overflow-y: scroll;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
