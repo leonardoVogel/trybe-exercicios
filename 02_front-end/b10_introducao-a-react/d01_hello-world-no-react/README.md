@@ -1,4 +1,4 @@
-# Exercícios React - Dia 01
+# Exercícios React - Bloco 10.1
 
 - [x] 1. Crie um novo projeto;
 - [x] 2. Crie uma lista de tarefas simples;
