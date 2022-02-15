@@ -98,18 +98,18 @@ O programa conta com mais de 1.500 horas de aulas online, abordando Introdução
 
 - [ ] 11-1: _Componentes com Estado e Eventos_
 - [ ] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [x] 11-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 12: Ciclo de vida de componentes e React Router
 
 - [ ] 12-1: _Ciclo de vida de componentes_
 - [ ] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+- [x] 12-3: _[Projeto - TrybeTunes]()_
 
 ##### Bloco 13: Metodologias Ágeis
 
 - [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+- [x] 13-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
